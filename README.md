@@ -149,7 +149,7 @@ results/tables/test_scenarios.csv
 
 In this test, the plant and all estimators start from the same initial SOC of 0.5.
 
-![T1 Result](results/figures/T1_constant_matched_initial_soc.png)
+![T1 Result](results/figures/T1_constant_matched_initial_soc.jpg)
 
 ---
 
@@ -159,7 +159,7 @@ In this test, the true battery SOC starts at 0.5, while EKF, UKF, and Coulomb Co
 
 The Kalman filter estimators correct the initial SOC error using voltage feedback. Coulomb Counting remains offset because it has no correction mechanism.
 
-![T2 Result](results/figures/T2_constant_wrong_initial_soc.png)
+![T2 Result](results/figures/T2_constant_wrong_initial_soc.jpg)
 
 ---
 
@@ -167,7 +167,7 @@ The Kalman filter estimators correct the initial SOC error using voltage feedbac
 
 This test uses a pulse current profile with matched initial SOC.
 
-![T3 Result](results/figures/T3_pulse_matched_initial_soc.png)
+![T3 Result](results/figures/T3_pulse_matched_initial_soc.jpg)
 
 ---
 
@@ -175,7 +175,7 @@ This test uses a pulse current profile with matched initial SOC.
 
 This test uses a pulse current profile with 30% initial SOC error.
 
-![T4 Result](results/figures/T4_pulse_wrong_initial_soc.png)
+![T4 Result](results/figures/T4_pulse_wrong_initial_soc.jpg)
 
 ---
 
@@ -183,7 +183,7 @@ This test uses a pulse current profile with 30% initial SOC error.
 
 This test evaluates estimator robustness when voltage measurement noise is added.
 
-![T5 Result](results/figures/T5_pulse_voltage_noise.png)
+![T5 Result](results/figures/T5_pulse_voltage_noise.jpg)
 
 ---
 
@@ -193,7 +193,7 @@ This test evaluates estimator robustness when a +0.1 A current sensor bias is ad
 
 Coulomb Counting accumulates current measurement error over time, while EKF and UKF maintain better performance because they use terminal voltage feedback.
 
-![T6 Result](results/figures/T6_pulse_current_bias.png)
+![T6 Result](results/figures/T6_pulse_current_bias.jpg)
 
 ---
 
