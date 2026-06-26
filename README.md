@@ -362,13 +362,12 @@ Possible future improvements include:
 
 ## Authors
 
-Muhammed AbdulZahra Zaboun
-Ali Majeed Kadhuim
+- Muhammed AbdulZahra Zaboun
+- Ali Majeed Kadhuim
 
-Department of Electronics and Communications Engineering
-College of Engineering
-Gilgamesh University
-
+Department of Electronics and Communications Engineering  
+College of Engineering  
+Gilgamesh University  
 Academic year: 2025–2026
 
 ---
