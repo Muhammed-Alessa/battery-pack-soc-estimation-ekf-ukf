@@ -1,0 +1,36 @@
+# MATLAB autosave and backup files
+*.asv
+*.m~
+*.autosave
+
+# Simulink autosave files
+*.slx.autosave
+*.mdl.autosave
+
+# Simulink cache and generated folders
+slprj/
+*.slxc
+
+# MATLAB generated binaries
+*.mex*
+*.pdb
+
+# MATLAB figures
+*.fig
+
+# Temporary files
+*.tmp
+*.log
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Large generated output files
+*.mat
