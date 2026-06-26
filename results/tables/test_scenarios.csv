@@ -1,0 +1,7 @@
+Test,Current profile,Plant SOC0,EKF/UKF SOC0,CC SOC0,Disturbance
+T1,Constant 2 A,0.5,0.5,0.5,None
+T2,Constant 2 A,0.5,0.8,0.8,Wrong initial SOC (+30%)
+T3,Pulse (3 A / 0 A),0.5,0.5,0.5,None
+T4,Pulse (3 A / 0 A),0.5,0.8,0.8,Wrong initial SOC (+30%)
+T5,Pulse (3 A / 0 A),0.5,0.8,0.8,Voltage sensor noise
+T6,Pulse (3 A / 0 A),0.5,0.8,0.8,Current sensor bias (+0.1 A)

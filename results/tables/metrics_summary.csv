@@ -1,0 +1,7 @@
+Test,Profile,EKF RMSE (%),UKF RMSE (%),CC RMSE (%),EKF Max Error (%),UKF Max Error (%),CC Max Error (%),EKF Convergence (s),UKF Convergence (s)
+T1,Constant,0.80,0.74,0.00,1.30,1.37,0.01,,
+T2,"Constant, wrong initial SOC",0.83,0.78,30.00,5.70,5.67,30.00,4.0,4.0
+T3,Pulse,0.46,0.27,0.03,0.79,0.55,0.04,,
+T4,"Pulse, wrong initial SOC",0.52,0.37,29.98,5.70,5.65,30.00,4.0,4.0
+T5,Pulse + voltage noise,1.50,1.51,29.98,4.78,5.01,30.00,,
+T6,Pulse + current bias,0.62,0.45,31.03,5.62,5.57,32.08,3.0,3.0
